@@ -28,8 +28,6 @@ RUN apk add --no-cache \
     python \
     vim
 #I just adding this line to test webhook
-#second test
-#third test    
 RUN adduser --system app --home /app
 USER app
 WORKDIR /app
